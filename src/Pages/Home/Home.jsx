@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ScrollToTopButton from "../../Components/ScrollButton/ScrollButton";
 import { useCart } from "../../Components/CartContext";
 import { useOrders } from "../../Components/OrdersContext";
+import "../../assets/myVideo.mp4"
 
 export default function Home() {
   const { addToCart } = useCart();
