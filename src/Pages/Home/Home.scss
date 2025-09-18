@@ -1,0 +1,113 @@
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.hero-section{
+height: 100vh;
+width: 100% !important;
+  img{
+ width: 100%;
+  min-height:60%;
+  }
+}
+
+
+#user-dropdown::after {
+display: none;
+}
+.imgdiv{
+justify-content: space-between;
+margin-top: - 10rem;
+@media screen and (min-width:767px) and (max-width:992px){
+     
+}
+@media screen and (min-width:0px) and (max-width:767px){
+ flex-wrap: wrap;  
+} 
+}
+.img5{
+@media screen and (min-width:0px) and (max-width:767px){
+  margin-top:-3rem;
+  
+} 
+ &:hover {
+  transition: width 0.25s, height 0.25s, transform 0.25s;
+  width: 46%;
+  transform: rotate (180deg);
+}
+
+}
+.imgdiv{
+  margin-top: 5rem;
+}
+
+
+.marquee{
+  img{
+    width: 60% !important;
+  height: 500px;  
+  gap: 1rem;
+  }
+@media screen and (min-width:0px) and (max-width:767px){
+  img{
+    width: 100% !important;
+  height: 300px;  
+  gap: 1rem;
+  margin-top: 8rem;
+  }
+}
+ 
+}
+.button1, .button2 {
+  background-color: rgba(0, 0, 0, 0.8); 
+  border: none;
+  border-radius: 50%;
+  margin-top: 20rem;
+  width: 20px;
+  height: 50px;
+  cursor: pointer;
+  @media screen and (min-width:0px) and (max-width:767px){
+    margin-top: 10rem;
+    
+  }
+}
+
+.button1:hover, .button2:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.maindiv{
+margin-top: 10rem;  
+}
+.section2{
+margin-top: -8rem;
+}
+.section3{
+margin-top: 4rem;
+@media screen and (min-width:768px) and (max-width:992px){
+  margin-top: -17rem;
+}
+@media screen and (min-width:0px) and (max-width:767px){
+  margin-top: -45rem;
+    } 
+}
+.img4{
+&:hover {
+  transition: width 0.25s, height 0.25s, transform 0.25s;
+  width: 49%;
+  transform: rotate (180deg);
+}  
+
+}
+.carousel-item{
+&:hover {
+  transition: width 0.25s, height 0.23s, transform 0.25s;
+  width: 104%;
+  transform: rotate (180deg);
+}  
+}
+

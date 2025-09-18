@@ -1,0 +1,45 @@
+.CheckOut{
+  margin-top: 2rem;
+  h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f30172e5;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f30172e5;
+    padding-bottom: 1rem;
+  }
+}
+.send{
+  background-color: #f30172e5;
+  border-color: #f30172e5;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+  @media (max-width: 686px) {
+    .checkout-content {
+      flex-direction: column; 
+    }
+  }
+
+
+.send {
+  background-color: #f30172e5;
+  border-color: #f30172e5;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #e10067; 
+  }
+}

@@ -1,0 +1,40 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.App , #root{
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 100px) {
+    /* font at xs */
+    html {
+      font-size: 10px !important;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    /* font at sm */
+    html {
+      font-size: 12px !important;
+    }
+  }
+  @media screen and (min-width: 991px) {
+    /* font at md */
+    html {
+      font-size: 14px !important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    /* font at lg */
+    html {
+      font-size: 16px !important;
+    }
+  }

@@ -1,0 +1,47 @@
+.profile{
+    background-color:#f7a2b0;
+    background-image: url(src/assets/many-cosmetics-products-makeup-pink-background_144356-14182.png);
+    background-size: cover;
+    height:80vh;
+    border-radius: 50px;
+    margin-top: 5rem;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    text-decoration:double;
+    color:#f30172e5 !important;
+    line-height: 5rem;
+    font-weight: bold;
+}
+p{
+    color: black!important;
+    line-height: 2rem;
+    font-weight: 600;
+}
+.b1 , .b2{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f30172e5;
+     border-radius: 20px;
+     border: none;
+     color: white;
+     font-size: 1.3rem;
+     font-weight: 600;
+     width: 20rem;
+     height: 40px;
+    &:hover{
+     transition: 100ms;
+       background-color:#f7a2b0;
+    }
+}
+
+.b2{
+    background-color: black;
+}
+
+

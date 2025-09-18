@@ -1,0 +1,160 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #fcb2be;
+}
+.register_form {
+  padding-top: 8rem;
+//  position: relative;
+//  right: 20rem;
+  Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin: 10px;
+  margin-right: 10rem;
+}
+
+.img{
+  width: 50%;
+  height: 50%;
+  margin: 2.5rem 0;
+  border-radius: 20px;
+  
+  
+}
+.form{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   border: #f7a2b0 solid 1px;
+   box-shadow: #f7a2b0 0px 4px 10px;
+   border-radius: 20px;
+   width: 100%;
+   height: 100%;
+ 
+ }
+ .title{
+  text-align: center;
+    font-size:3 3rem;
+    color: #e1086ef5;
+    font-weight: bold;
+  }
+ .name , .password{
+   font-size: 1.2rem;
+   color: #e1086ef5;
+   font-weight: bold;
+   margin-right:12rem;
+   margin-bottom: 5px;
+ }
+  
+ .sub{
+   margin-top: 10px;
+  background-color: #f30172e5;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   font-size: 1.3rem;
+   width: 150px;
+   height: 40px;
+  &:hover{
+   transition: 100ms;
+     background-color:#f7a2b0;
+  }
+ 
+ }
+ .input{
+   border-radius: 15px;
+   border-color: #fec5c5;
+   width: 60%;
+   font-size: 16px;
+   outline: none;
+   padding: 1rem 0.5rem ;
+   
+ }
+
+ button{
+   cursor: pointer;
+   margin-top: 10px;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   font-size: 1.3rem;
+
+ }
+ .login{
+  text-decoration: none;
+  color:#f30172e5;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  
+ }
+   
+  @mixin body ($img , $position){
+   background :$img;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: $position;
+ }
+ body{
+   @include body(url('./assets/logo.jpg') , center );
+ } 
+
+
+
+ @media (max-width : 768px) {
+    .register_form {
+      width: 100%;
+    }
+    .input {
+      padding: 0.5rem;
+    }
+    .name , .password{
+      font-size: 1rem;
+      margin-right: 0rem; 
+      
+    
+    }
+    .image{
+      display: none;
+
+    }
+    .error{
+      margin-right: .5rem;
+    }
+ } 
+
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+  .form {
+    width: 100%;
+  }
+    .name , .password{
+      font-size: 1rem;
+      margin-right: 0rem;
+      margin-bottom: 5px;
+    }
+   
+  }
+  
+
+
+
+
+
+
+
+
+ 
